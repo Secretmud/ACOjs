@@ -1,0 +1,14 @@
+{
+  "name": "aocjs",
+  "version": "0.0.1",
+  "description": "A graphical presentation of Ant Colony Optimization written in JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "secretmud",
+  "license": "MIT",
+  "dependencies": {
+    "p5": "^1.4.1"
+  }
+}
