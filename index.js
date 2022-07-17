@@ -37,10 +37,10 @@ function draw() {
     let food_sum = 0;
     for (let i = 0; i < food.length; i++) {
         food[i].display();
+        food_sum += food[i].amount;
         if (food[i].amount <= 0) {
             food.splice(i,i)
         }
-        food_sum += food[i].amount;
     }
     for (let i = 0; i < ants.length; i++) {
         ants[i].move();
